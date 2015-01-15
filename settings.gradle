@@ -52,6 +52,7 @@ include 'examples:sml'
 include 'examples:pml'
 include 'examples:worker'
 include 'examples:service'
+include 'examples:ssu'
 
 include 'distribution'
 

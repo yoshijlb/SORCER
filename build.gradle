@@ -135,7 +135,7 @@ task allJavadoc(type: Javadoc) {
 
 subprojects {
     afterEvaluate {
-        def skip = ["deploy-tests", "sorcer-tester", "eol", "worker", "pml", "service", "ssb"]
+        def skip = ["deploy-tests", "sorcer-tester", "eol", "worker", "pml", "service","ssu", "ssb"]
         if (plugins.hasPlugin(JavaPlugin) && !skip.contains(project.name)) {
             // configuration here
             rootProject.tasks.allJavadoc {
